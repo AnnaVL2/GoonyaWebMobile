@@ -33,6 +33,7 @@ header {
 }
 
 main {
+  margin-top: 5rem;
   height: 80vh;
   grid-column: span 12;
 }
@@ -46,14 +47,18 @@ nav {
 }
 
 .contentHeader {
-  width: 5rem;
-  margin-top: 2rem;
-  margin-left: -3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .contentHeader2 {
   margin-left: 8rem;
-  margin-top: 11rem;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
 }
 
 ul,
@@ -132,16 +137,37 @@ h2:hover {
   text-align: left;
 }
 
+.links2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .linksRight {
   width: 55rem;
   margin: -1rem;
   text-align: left;
 }
 
+.head {
+  padding-top: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
 a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
-  letter-spacing: -70px;
+  letter-spacing: -63px;
   color: #17b976;
   text-decoration: none;
   font-size: 14rem;
@@ -266,7 +292,7 @@ p:hover:nth-of-type(4) {
 
 #shape1 {
   margin-top: -4rem;
-  padding: 4.1rem;
+  padding: 12rem;
   position: absolute;
   display: block;
   width: 5rem;
@@ -304,7 +330,7 @@ p:hover:nth-of-type(4) {
 
 #shape2 {
   margin-top: -1rem;
-  padding: 2.2rem;
+  padding: 8.2rem;
   position: absolute;
   width: 2rem;
   height: 2rem;
@@ -412,14 +438,14 @@ p:hover:nth-of-type(4) {
 p:hover:nth-of-type(1) {
   font-weight: 200;
   color: #0f6b66;
-  width: 190px;
-  min-height: 200px;
+  width: 290px;
+  min-height: 30rem;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 4rem;
   letter-spacing: -0.2rem;
   line-height: 3.3rem;
   bottom: 5%;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   -webkit-transition: font-size 350ms cubic-bezier(0, 0.21, 0.52, 0.8), color 100ms cubic-bezier(0, 0.21, 0.52, 0.8), background-color 300ms cubic-bezier(0, 0.21, 0.52, 0.8), min-height 100ms cubic-bezier(0, 0.21, 0.52, 0.8);
   transition: font-size 350ms cubic-bezier(0, 0.21, 0.52, 0.8), color 100ms cubic-bezier(0, 0.21, 0.52, 0.8), background-color 300ms cubic-bezier(0, 0.21, 0.52, 0.8), min-height 100ms cubic-bezier(0, 0.21, 0.52, 0.8);
 }
@@ -429,7 +455,7 @@ p:hover:nth-of-type(1) {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   letter-spacing: -0.7rem;
   position: absolute;
   padding: 2.5rem 2rem 2rem 2rem;
