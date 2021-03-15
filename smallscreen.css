@@ -33,7 +33,7 @@ header {
 }
 
 [class*="col-"] {
-  padding: 15px;
+  padding: 5px;
 }
 
 .col-1 {
@@ -503,6 +503,24 @@ p:hover:nth-of-type(1) {
   [class*="col-"] {
     width: 100%;
   }
+  .mainMenu {
+    margin-left: 8rem;
+    float: left;
+  }
+  .mainMenu li {
+    padding: 2rem;
+    display: inline-block;
+  }
+  .mainMenu li a {
+    display: inline-block;
+    color: #d6d4d6;
+    font-size: 27rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-top: .5rem;
+    text-align: right;
+  }
   .contentHeaderHomePage {
     margin-top: 2rem;
     margin-left: 13rem;
@@ -531,7 +549,7 @@ p:hover:nth-of-type(1) {
     -webkit-animation: shape1 7s ease-in-out infinite alternate;
             animation: shape1 7s ease-in-out infinite alternate;
   }
-  .contentHeader {
+  header .contentHeader {
     display: none;
   }
   .col-9 {
@@ -558,31 +576,6 @@ p:hover:nth-of-type(1) {
     color: #920da3;
     -webkit-transition: 300ms color;
     transition: 300ms color;
-  }
-  .col-5 {
-    float: center;
-    margin-left: 18rem;
-  }
-  .col-5 li {
-    padding: 2rem;
-    display: inline-block;
-  }
-  .col-5 a {
-    display: inline-block;
-    color: #d6d6d4;
-    font-size: 7rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    letter-spacing: .2rem;
-    margin-top: .5rem;
-    text-align: right;
-  }
-  .col-5 a:hover {
-    font-family: 'Montserrat', sans-serif;
-    color: #17b976;
-    color: #15be7b;
-    -webkit-transition: 500ms color cubic-bezier(0.63, 0.18, 0, 1.79);
-    transition: 500ms color cubic-bezier(0.63, 0.18, 0, 1.79);
   }
 }
 /*# sourceMappingURL=style.css.map */
