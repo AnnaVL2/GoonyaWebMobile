@@ -1,97 +1,120 @@
-<link rel="stylesheet" media="screen and (min-width: 200px)" href="smallscreen.css">
-
+<link rel="stylesheet" href="/styles/style.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
 
-<section>
-    <div class="head">
-    <div class="links2">
-        <a href="index.html" style="margin-left: -7rem; color:rgb(173, 169, 169);">HOME</a>
-        <a href="art2.html">ART</a>
-        <a href="about.html" style="color:rgb(173, 169, 169);">ABOUT</a>
+<!-- <section> -->
+
+    <div class="row">
+        <div class="col-5" >
+            <div class="contentHeader" style="float: left;">
+                <a href="/index.html" style="padding-top: 2.2rem;">
+                    <div id="shape1"></div>
+                    <div id="shape2"></div>
+                </a>
+            </div>
+        </div>
+        <div class="col-7">
+            <header>
+                <div class="mainMenu">
+                    <li><a style="color: rgb(15, 107, 102);" href="/html/art2.html">ART</a></li>
+                    <li><a href="/html/about.html">ABOUT</a></li>
+                </div>
+            </header>
+        </div>
     </div>
-</div>
-    
-    <main>
-        <div class="gallery">
-  <div class="img-container">
-                <img src="01_preview.jpg" alt="PATZLA// pens & markers" data-original="01_full.jpg">
-            </div>
-            <div class="img-container">
-                <img src="02_preview.jpg" alt="QRO ILA QUNTI QUNTU// pens & colored pencils" data-original="02_full.jpg">
+
+    <div class="row">
+        <main>
+            <div class="col-12">
+                <div class="gallery">
+                    <div class="img-container">
+                        <img src="/assets/images/previews/01_preview.jpg" alt="PATZLA// pens & markers"
+                            data-original="01_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/02_preview.jpg"
+                            alt="QRO ILA QUNTI QUNTU// pens & colored pencils" data-original="02_full.jpg">
+                    </div>
+
+                    <div class="img-container">
+                        <img src="/assets/images/previews/03_preview.jpg" alt="CHRISTINA// pens"
+                            data-original="03_full.jpg">
+                    </div>
+
+                    <div class="img-container">
+                        <img src="/assets/images/previews/04_preview.jpg" alt="QUNDARA QUNDAYA// pens"
+                            data-original="04_full.jpg">
+                    </div>
+
+                    <div class="img-container">
+                        <img src="/assets/images/previews/05_preview.jpg" alt="NAZELET// pens & markers"
+                            data-original="05_full.jpg">
+                    </div>
+
+                    <div class="img-container">
+                        <img src="/assets/images/previews/06_preview.jpg" alt="POSE, SMILE// pens & colored pencils"
+                            data-original="06_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/07_preview.jpg" alt="LIQUID MESSAGE// pens & markers"
+                            data-original="07_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/08_preview.jpg" alt="DANCE// pens & colored pencils"
+                            data-original="08_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/09_preview.jpg"
+                            alt="WHEN YOU'RE STRANGE// pens & colored pencils" data-original="09_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/10_preview.jpg" alt="BEAST// pens & colored pencils"
+                            data-original="10_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/11_preview.jpg"
+                            alt="BALOON FLOWER KINGDOM// pens & colored pencils" data-original="11_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/12_preview.jpg" alt="SUNSHINE BIRDIE// pens & colored pencils"
+                            data-original="12_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/13_preview.jpg" alt="BLUE MOON// pens & markers"
+                            data-original="13_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/14_preview.jpg" alt="UNTITLED// colored pencils"
+                            data-original="14_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/15_preview.jpg" alt="UNTITLED// pens & colored pencils"
+                            data-original="15_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/16_preview.jpg" alt="BOOGIE WOOGIE// pens & colored pencils"
+                            data-original="16_full.jpg">
+
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/17_preview.jpg"
+                            alt="GOOD MORNING// collage, pens, colored pencils" data-original="17_full.jpg">
+                    </div>
+                    <div class="img-container">
+                        <img src="/assets/images/previews/18_preview.jpg"
+                            alt="TEENG-TUN// collage, pens, colored pencils" data-original="18_full.jpg">
+                    </div>
+                </div>
             </div>
 
-            <div class="img-container">
-                <img src="03_preview.jpg" alt="CHRISTINA// pens" data-original="03_full.jpg">
+            <div class="modal">
+                <img src="" alt="" class="full-img"
+                    onclick="window.open(original.src, '_blank', 'toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=100,width=600,height=600')"
+                    style="cursor: zoom-in;">
+                <p class="caption"></p>
             </div>
+            <script src="/html/app.js"></script>
+        </main>
+    </div>
 
-            <div class="img-container">
-                <img src="04_preview.jpg" alt="QUNDARA QUNDAYA// pens" data-original="04_full.jpg">
-            </div>
-
-            <div class="img-container">
-                <img src="05_preview.jpg" alt="NAZELET// pens & markers" data-original="05_full.jpg">
-            </div>
-
-            <div class="img-container">
-                <img src="06_preview.jpg" alt="POSE, SMILE// pens & colored pencils"
-                    data-original="06_full.jpg">
-            </div>
-        </div>
-
-
-        <div class="gallery">
-            <div class="img-container">
-                <img src="07_preview.jpg" alt="LIQUID MESSAGE// pens & markers" data-original="07_full.jpg">
-            </div>
-            <div class="img-container">
-                <img src="08_preview.jpg" alt="DANCE// pens & colored pencils" data-original="08_full.jpg">
-            </div>
-            <div class="img-container">
-                <img src="09_preview.jpg" alt="WHEN YOU'RE STRANGE// pens & colored pencils" data-original="09_full.jpg">
-            </div>
-            <div class="img-container">
-                <img src="10_preview.jpg" alt="BEAST// pens & colored pencils" data-original="10_full.jpg">
-            </div>
-            <div class="img-container">
-                <img src="11_preview.jpg" alt="BALOON FLOWER KINGDOM// pens & colored pencils" data-original="11_full.jpg">
-            </div>
-            <div class="img-container">
-                <img src="12_preview.jpg" alt="SUNSHINE BIRDIE// pens & colored pencils" data-original="12_full.jpg">
-            </div>
-        </div>
-
-        
-        <div class="gallery">
-            <div class="img-container">
-                <img src="13_preview.jpg" alt="BLUE MOON// pens & markers" data-original="13_full.jpg">
-            </div>
-            <div class="img-container">
-                <img src="14_preview.jpg" alt="UNTITLED// colored pencils" data-original="14_full.jpg">
-            </div>
-            <div class="img-container">
-                <img src="15_preview.jpg" alt="UNTITLED// pens & colored pencils" data-original="15_full.jpg">
-            </div>
-            <div class="img-container">
-                <img src="16_preview.jpg"
-                    alt="BOOGIE WOOGIE// pens & colored pencils"
-                    data-original="16_full.jpg">
-            </div>
-            <div class="img-container">
-                <img src="17_preview.jpg" alt="GOOD MORNING// collage, pens, colored pencils" data-original="17_full.jpg">
-            </div>
-            <div class="img-container">
-                <img src="18_preview.jpg"
-                    alt="TEENG-TUN// collage, pens, colored pencils" data-original="18_full.jpg">
-            </div>
-        </div>
-        
-
-        <div class="modal">
-            <img src="" alt="" class="full-img">
-               
-            <p class="caption"></p>
-        </div>
-        <script src="app.js"></script>
-    </main>
-</section>
+<!-- </section> -->
