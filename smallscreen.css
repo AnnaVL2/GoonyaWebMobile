@@ -516,8 +516,8 @@ p:hover:nth-of-type(1) {
     border-radius: 50%;
     border: none;
     background-color: rgba(26, 243, 232, 0.6);
-    -webkit-animation: shape2 2s ease-in-out infinite alternate;
-            animation: shape2 2s ease-in-out infinite alternate;
+    -webkit-animation: shape2 3s ease-in-out infinite alternate;
+            animation: shape2 3s ease-in-out infinite alternate;
   }
   .contentHeaderHomePage #shape1 {
     margin-top: -4rem;
@@ -538,7 +538,7 @@ p:hover:nth-of-type(1) {
     display: none;
   }
   .col-3 {
-    margin-top: 18rem;
+    margin-top: 21rem;
     margin-left: 3rem;
   }
   .col-3 .links a {
