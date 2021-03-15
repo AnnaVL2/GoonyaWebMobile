@@ -195,8 +195,8 @@ a:hover #shape2:hover {
 }
 
 .mainMenu {
-  float: left;
-  margin-left: 18rem;
+  margin-left: 31rem;
+  display: inline-block;
 }
 
 .mainMenu li {
@@ -509,7 +509,7 @@ p:hover:nth-of-type(1) {
   }
   .contentHeaderHomePage #shape2 {
     margin-top: -1rem;
-    padding: 8.2rem;
+    padding: 6.7rem;
     position: absolute;
     width: 2rem;
     height: 2rem;
@@ -521,7 +521,7 @@ p:hover:nth-of-type(1) {
   }
   .contentHeaderHomePage #shape1 {
     margin-top: -4rem;
-    padding: 11.9rem;
+    padding: 9.9rem;
     position: absolute;
     display: block;
     width: 5rem;
@@ -538,18 +538,18 @@ p:hover:nth-of-type(1) {
     display: none;
   }
   .col-3 {
-    margin-top: 31rem;
+    margin-top: 18rem;
     margin-left: 3rem;
   }
   .col-3 .links a {
-    line-height: 17rem;
+    line-height: 15rem;
     margin: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     letter-spacing: -78px;
     color: #17b976;
     text-decoration: none;
-    font-size: 17rem;
+    font-size: 16rem;
     float: center;
     display: block;
   }
