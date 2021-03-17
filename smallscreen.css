@@ -150,8 +150,8 @@ h2:hover {
 }
 
 .links {
-  margin: -1rem;
-  margin-top: -2.5rem;
+  margin: 2rem;
+  margin-top: 2.5rem;
   text-align: left;
 }
 
@@ -162,6 +162,7 @@ h2:hover {
 }
 
 a {
+  line-height: 23rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   letter-spacing: -141px;
@@ -195,8 +196,7 @@ a:hover #shape2:hover {
 }
 
 .mainMenu {
-  margin-left: 31rem;
-  display: inline-block;
+  margin-left: 14rem;
 }
 
 .mainMenu li {
@@ -205,13 +205,12 @@ a:hover #shape2:hover {
 }
 
 .mainMenu a {
-  display: inline-block;
+  line-height: 3rem;
   color: #d6d6d4;
   font-size: 1.7rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   letter-spacing: .2rem;
-  margin-top: .5rem;
   text-align: right;
 }
 
