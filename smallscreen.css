@@ -636,6 +636,9 @@ main {
     margin-top: 23rem;
     margin-left: -1rem;
   }
+  .col-3 .links {
+    width: 10rem;
+  }
   .col-3 .links a {
     line-height: 15rem;
     margin: none;
