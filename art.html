@@ -1,29 +1,41 @@
-<link rel="stylesheet" href="smallscreen.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- <section> -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art</title>
 
-<header>
-    <div class="row">
-        <div class="col-12">
-            <div class="contentHeader">
-                <a href="index.html">
-                    <div id="shape1"></div>
-                    <div id="shape2"></div>
-                </a>
-                <div class="mainMenu">
-                    <li><a style="color: rgb(15, 107, 102);" href="art2.html">ART</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                </div>
-            </div>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="contentHeader">
+            <a href="index.html">
+                <div id="shape1"></div>
+                <div id="shape2"></div>
+            </a>
         </div>
-    </div>
-</header>
+        <div class="mainMenu">
+            <li><a style="color: rgb(15, 107, 102);" href="art.html">ART</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </div>
+
+        <div class="contentHeaderMiddlePage">
+            <a href="index.html">
+                <div id="shape1"></div>
+                <div id="shape2"></div>
+            </a>
+        </div>
+    </header>
 
     <div class="row">
         <main>
-            <div class="col-12">
                 <div class="gallery">
                     <div class="img-container">
                         <img src="01_preview.jpg" alt="PATZLA// pens & markers"
@@ -103,16 +115,16 @@
                             alt="TEENG-TUN// collage, pens, colored pencils" data-original="18_full.jpg">
                     </div>
                 </div>
-            </div>
 
-            <div class="modal">
-                <img src="" alt="" class="full-img"
-                    onclick="window.open(original.src, '_blank', 'toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=100,width=600,height=600')"
-                    style="cursor: zoom-in;">
-                <p class="caption"></p>
-            </div>
-            <script src="app.js"></script>
-        </main>
-    </div>
+        <div class="modal">
+            <img src="" alt="" class="full-img"
+                onclick="window.open(original.src, '_blank', 'toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=100,width=600,height=600')"
+                style="cursor: zoom-in;">
+            <p class="caption"></p>
+        </div>
 
-<!-- </section> -->
+        <script src="app.js"></script>
+    </main>
+
+</body>
+</html>
