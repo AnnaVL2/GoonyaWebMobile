@@ -657,6 +657,7 @@ main {
     -webkit-transition: 100ms color;
     transition: 100ms color;
   }
+  /*
   .gallery {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -694,6 +695,32 @@ main {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  */
+  
+    .gallery {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 26vh;
+    grid-gap: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    padding-top: 3rem;
+  }
+  .img-container {
+    background-color: transparent;
+  }
+  .img-container img {
+    width: 110%;
+    height: 110%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    cursor: pointer;
+    -webkit-transition: width 1s cubic-bezier(0, 0.21, 0.52, 0.8);
+    transition: width 1s cubic-bezier(0, 0.21, 0.52, 0.8);
+  }
+  
   .modal {
     background: rgba(14, 15, 27, 0.9);
     position: fixed;
