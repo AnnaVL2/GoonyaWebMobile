@@ -768,13 +768,13 @@ main {
   p:hover:nth-of-type(1) {
     font-weight: 100;
     color: #0f6b66;
-    width: 200px;
+    width: 235px;
     min-height: 90px;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 2rem;
     letter-spacing: -0.2rem;
     line-height: 3.3rem;
-    bottom: 7%;
+    bottom: 10%;
     font-size: 3.6rem;
     -webkit-transition: font-size 300ms cubic-bezier(0, 0.21, 0.52, 0.8), color 100ms cubic-bezier(0, 0.21, 0.52, 0.8), background-color 300ms cubic-bezier(0, 0.21, 0.52, 0.8), min-height 100ms cubic-bezier(0, 0.21, 0.52, 0.8);
     transition: font-size 300ms cubic-bezier(0, 0.21, 0.52, 0.8), color 100ms cubic-bezier(0, 0.21, 0.52, 0.8), background-color 300ms cubic-bezier(0, 0.21, 0.52, 0.8), min-height 100ms cubic-bezier(0, 0.21, 0.52, 0.8);
