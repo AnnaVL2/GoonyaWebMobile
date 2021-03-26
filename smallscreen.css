@@ -776,8 +776,6 @@ main {
     line-height: 3.3rem;
     bottom: 10%;
     font-size: 3.6rem;
-    -webkit-transition: font-size cubic-bezier(0, 0.21, 0.52, 0.8), color cubic-bezier(0, 0.21, 0.52, 0.8), background-color cubic-bezier(0, 0.21, 0.52, 0.8), min-height cubic-bezier(0, 0.21, 0.52, 0.8);
-    transition: font-size cubic-bezier(0, 0.21, 0.52, 0.8), color cubic-bezier(0, 0.21, 0.52, 0.8), background-color cubic-bezier(0, 0.21, 0.52, 0.8), min-height cubic-bezier(0, 0.21, 0.52, 0.8);
   }
   p:hover:nth-of-type(2) {
     color: #6b2003;
