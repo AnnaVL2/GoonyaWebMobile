@@ -815,8 +815,8 @@ main {
     position: absolute;
     top: 25%;
     left: 50%;
-    -webkit-transform: translate(-50%, -25%) scale(1);
-            transform: translate(-50%, -25%) scale(1);
+    -webkit-transform: translate(-50%, -25%) scale(0.95);
+            transform: translate(-50%, -25%) scale(0.95);
     -webkit-transition: all 0.1s ease-out;
     transition: all 0.1s ease-out;
     height: 80vh;
@@ -824,8 +824,8 @@ main {
     padding: 3rem;
   }
   .full-img.open {
-    -webkit-transform: translate(-50%, -25%) scale(1);
-            transform: translate(-50%, -25%) scale(1);
+    -webkit-transform: translate(-50%, -25%) scale(0.95);
+            transform: translate(-50%, -25%) scale(0.95);
   }
 }
 /*# sourceMappingURL=style.css.map */
