@@ -1,5 +1,4 @@
-$border-rad: 2rem;
-$clr-shp: rgba(65, 65, 56, 0.4);
+
 
 * {
   margin: 0;
@@ -845,9 +844,9 @@ main {
     letter-spacing: -0.7rem;
     position: absolute;
     padding: 2.5rem 0rem 2rem 0rem;
-    bottom: 7%;
+    bottom: 4%;
     left: 50%;
-    transform: translate(-50%, -7%);
+    transform: translate(-50%, -4%);
     border-bottom: solid 1px rgba(255, 255, 255, 0.9);
 
   }
@@ -862,7 +861,7 @@ main {
     position: absolute;
     top: 35%;
     left: 50%;
-    transform: translate(-50%, -35%) scale(0.7);
+    transform: translate(-50%, -35%) scale(0.8);
     transition: all 0.3s ease-out;
     height: 80vh;
     grid-gap: 1rem;
@@ -870,6 +869,6 @@ main {
   }
 
   .full-img.open {
-    transform: translate(-50%, -32%) scale(1);
+    transform: translate(-50%, -32%) scale(0.8);
   }
 }
