@@ -803,10 +803,10 @@ main {
     letter-spacing: -0.7rem;
     position: absolute;
     padding: 2.5rem 0rem 2rem 0rem;
-    bottom: 4%;
+    bottom: 6%;
     left: 50%;
-    -webkit-transform: translate(-50%, -4%);
-            transform: translate(-50%, -4%);
+    -webkit-transform: translate(-50%, -6%);
+            transform: translate(-50%, -6%);
     border-bottom: solid 1px rgba(255, 255, 255, 0.9);
   }
   .modal.open {
@@ -815,10 +815,10 @@ main {
   }
   .full-img {
     position: absolute;
-    top: 35%;
+    top: 25%;
     left: 50%;
-    -webkit-transform: translate(-50%, -35%) scale(0.8);
-            transform: translate(-50%, -35%) scale(0.8);
+    -webkit-transform: translate(-50%, -25%) scale(0.8);
+            transform: translate(-50%, -25%) scale(0.8);
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     height: 80vh;
