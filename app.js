@@ -23,7 +23,7 @@ previewsNarrow.forEach(preview => {
         original.classList.add('open');
         //Dynamic change text&image
         const originalSrcN = preview.getAttribute('data-original');
-        original.src = originalSrc;
+        original.src = originalSrcN;
         const altText = preview.alt;
         caption.textContent = altText;
     });
