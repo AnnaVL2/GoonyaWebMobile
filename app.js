@@ -17,14 +17,14 @@ previews.forEach(preview => {
     });
 });
 
-previewsNarrow.forEach(previewN => {
-    previewN.addEventListener('click', () => {
+previewsNarrow.forEach(preview => {
+    preview.addEventListener('click', () => {
         modal.classList.add('open');
         original.classList.add('open');
         //Dynamic change text&image
-        const originalSrcN = previewN.getAttribute('data-original');
-        original.src = originalSrcN;
-        const altText = previewN.alt;
+        const originalSrcN = preview.getAttribute('data-original');
+        original.src = `/assets/images/full/${originalSrcN}`;
+        const altText = preview.alt;
         caption.textContent = altText;
     });
 });
