@@ -1,5 +1,5 @@
 const modal = document.querySelector('.modal');
-const previews = document.querySelectorAll('.gallery img');
+const previews = document.querySelectorAll('.galleryWide img');
 const previewsNarrow = document.querySelectorAll('.galleryNarrow img');
 const original = document.querySelector('.full-img');
 const caption = document.querySelector('.caption');
