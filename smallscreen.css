@@ -97,13 +97,16 @@ main {
 
 @media (min-width: 401px) {
   header {
-    display: inline;
     height: 9vh;
     margin: auto;
     background-color: white;
   }
+  .row {
+    margin: 5rem 0rem 0rem 3rem;
+  }
   .contentHeader {
     width: 35rem;
+    margin-left: 5rem;
   }
   .contentHeaderMiddlePage {
     display: none;
@@ -119,6 +122,7 @@ main {
   }
   h1 {
     margin-top: 5rem;
+    margin-left: 2rem;
     color: #414138;
     font-size: 5rem;
     font-family: 'Montserrat', sans-serif;
@@ -208,6 +212,7 @@ main {
     width: 90%;
     line-height: 2rem;
     margin-top: 1.5rem;
+    margin-left: 2rem;
     text-align: left;
     -webkit-transition-duration: 1500ms;
             transition-duration: 1500ms;
@@ -237,14 +242,14 @@ main {
   }
   #shape1 {
     margin-top: -4rem;
-    padding: 4rem;
+    padding: 7rem;
     position: absolute;
     display: block;
     width: 3rem;
     height: 3rem;
     border-style: dashed;
     border-width: thin;
-    border-color: #b458f1;
+    border-color: #562ee9;
     -webkit-animation: shape1 7s ease-in-out infinite alternate;
             animation: shape1 7s ease-in-out infinite alternate;
   }
@@ -274,7 +279,7 @@ main {
   }
   #shape2 {
     margin-top: -1rem;
-    padding: 2rem;
+    padding: 4.3rem;
     position: absolute;
     display: block;
     width: 2rem;
@@ -282,7 +287,7 @@ main {
     border-radius: 50%;
     border-style: dashed;
     border-width: thin;
-    border-color: #b458f1;
+    border-color: #562ee9;
     -webkit-animation: shape2 2s ease-in-out infinite alternate;
             animation: shape2 2s ease-in-out infinite alternate;
   }
@@ -323,8 +328,6 @@ main {
     height: 100%;
     border-style: dashed;
     border-width: thin;
-    border-color: #fd9104;
-    border-color: #bfe928;
     border-color: #562ee9;
     border-radius: 50%;
   }
@@ -347,7 +350,7 @@ main {
     -ms-grid-columns: (minmax(0.35rem, 1fr))[auto-fill];
         grid-template-columns: repeat(auto-fill, minmax(0.35rem, 1fr));
     height: 80vh;
-    grid-gap: 2.5rem;
+    grid-gap: 3.5rem;
     margin: auto;
     margin-top: 4rem;
     -webkit-box-align: center;
@@ -410,6 +413,7 @@ main {
     transition: font-size 300ms cubic-bezier(0, 0.21, 0.52, 0.8), color 100ms cubic-bezier(0, 0.21, 0.52, 0.8), background-color 300ms cubic-bezier(0, 0.21, 0.52, 0.8), min-height 100ms cubic-bezier(0, 0.21, 0.52, 0.8);
   }
   .modal p {
+    margin: 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
@@ -448,7 +452,9 @@ main {
     display: none;
   }
   .mainMenu {
-    margin-left: -2rem;
+    margin-top: 2rem;
+    position: absolute;
+    right: 5rem;
   }
   .mainMenu li {
     padding: 2rem;
